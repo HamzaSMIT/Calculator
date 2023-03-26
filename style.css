@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+  /* font-family: 'Poppins', sans-serif; */
+
+  h1{
+    text-align: center;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 80px;
+    color: #e0e1dd;
+  }
+tr{
+    height: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #e0e1dd;
+}
+td{
+    width: 50px;
+    border-radius: 10px;
+    text-align: center;
+    gap: 10px;
+}
+td:hover{
+    transform: scale(1.5);
+    cursor:pointer;
+}
+.king{
+    background-color: #1b263b;
+    width: 100%;
+    height: 900px;
+}
+.parentDiv {
+    width: 60%;
+    margin: 50px auto;
+}
+
+.inputDiv input {
+    width: 100%;
+    height: 50px;
+    background: #e0e1dd;
+    border: none;
+    outline: 2px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(16, 16, 16);
+    padding: 0px 20px;
+}
+
+.inputDiv input::placeholder{
+    color: rgba(0, 0, 0, 0.39);
+}
+
+.bodyDiv table {
+    width: 100%;
+}
