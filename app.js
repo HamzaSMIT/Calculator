@@ -19,5 +19,5 @@ function clearInput() {
   
   function clearLastChar() {
     var input = document.getElementById("number")
-    number.value = number.value.slice(0, -1)
+    input.value = input.value.slice(0, -1)
   }
