@@ -10,3 +10,14 @@ function answer() {
     var output = eval(inputValue.value)
     inputValue.value = output
 }
+
+function clearInput() {
+    document.getElementById("number").value = ""
+  }
+
+
+  
+  function clearLastChar() {
+    var input = document.getElementById("number")
+    number.value = number.value.slice(0, -1)
+  }
